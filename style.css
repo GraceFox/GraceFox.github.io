@@ -1,0 +1,29 @@
+h1 {
+    font-family: Georgia, serif;
+    color: white;
+}
+
+body {
+    font-family: Georgia, serif;
+    color : white;
+    line-height: 1.5;
+    margin: 25px 50px 75px 100px;
+    background-color: hsl(210, 100%, 70%);
+}
+
+a {
+    color: white;
+}
+
+.ht:hover .tooltip {
+    display:block;
+}
+
+.tooltip {
+    display: none;
+    color: white;
+    margin-left: 28px; /* moves the tooltip to the right */
+    margin-top: 15px; /* moves it down */
+    position: absolute;
+    z-index: 1000;
+}
